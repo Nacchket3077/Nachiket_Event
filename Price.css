@@ -1,0 +1,44 @@
+/* CSS for styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222; /* Change background color to black */
+    color: white; /* Change text color to white */
+}
+
+.card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background-color: black; /* Change background color of card to black */
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -15px;
+    color: white; /* Change text color of card body to white */
+}
+
+.btn-primary {
+    border-radius: 50px;
+    width: 120px;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.btn-primary:hover {
+    background-color: orangered; /* Change background color of button on hover to orange */
+    border: none;
+}
+
+h1.text-center {
+    color: orangered; /* Change text color of "Popular Events" to black */
+}
